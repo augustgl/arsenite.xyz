@@ -6,7 +6,7 @@
 ##### Stub configuration: arsenite/arsenite/Config.cs
 ##### Main program: arsenite/arsenite/Program.cs
 
-### Functions worth noting
+# Functions worth noting
 
 ##### gzip function: Program.cs line 15
 ##### report token: TokenDiscovery.cs line 103
