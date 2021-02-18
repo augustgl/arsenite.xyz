@@ -2,17 +2,21 @@
 
 Reverse engineered source for the arsenite discord token logger
 
-Logs tokens and disables 2fa 
+#### Token Discovery: arsenite/arsenite/TokenDiscovery.cs
+#### Stub configuration: arsenite/arsenite/Config.cs
+#### Main program: arsenite/arsenite/Program.cs
 
-someone attempted to send this to a server I'm in. I downloaded it and saw that it was written in C#
+### Functions worth noting
 
-I reverse engineered it. Here's the source.
+##### gzip function: Program.cs line 15
+##### report token: TokenDiscovery.cs line 103
+##### check token: TokenDiscovery.cs line 64
 
 # directory tree
 
 ```
 arsenite/
-├── arsenite
+├── arsenite 
 │   ├── Config.cs
 │   ├── Json
 │   ├── Program.cs
@@ -23,7 +27,7 @@ arsenite/
 │   ├── app.manifest
 │   └── arsenite.csproj
 ├── arsenite.sln
-└── binaries
+└── binaries 
     ├── Update
     └── json
 ```
