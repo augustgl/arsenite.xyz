@@ -2,9 +2,11 @@
 
 Reverse engineered source for the arsenite discord token logger
 
-#### Token Discovery: arsenite/arsenite/TokenDiscovery.cs
-#### Stub configuration: arsenite/arsenite/Config.cs
-#### Main program: arsenite/arsenite/Program.cs
+## FILES
+
+##### Token Discovery: arsenite/arsenite/TokenDiscovery.cs
+##### Stub configuration: arsenite/arsenite/Config.cs
+##### Main program: arsenite/arsenite/Program.cs
 
 ### Functions worth noting
 
