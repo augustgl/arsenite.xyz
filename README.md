@@ -1,8 +1,6 @@
 # arsenite.xyz discord token logger
 
-Reverse engineered source for the arsenite discord token logger
-
-## FILES
+# FILES
 
 ##### Token Discovery: arsenite/arsenite/TokenDiscovery.cs
 ##### Stub configuration: arsenite/arsenite/Config.cs
