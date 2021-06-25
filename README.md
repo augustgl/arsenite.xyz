@@ -1,5 +1,7 @@
 # arsenite.xyz discord token logger
 
+A pathetic attempt at a discord token logger
+
 # FILES
 
 ##### Token Discovery: arsenite/arsenite/TokenDiscovery.cs
